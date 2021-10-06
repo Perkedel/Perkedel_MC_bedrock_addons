@@ -18,12 +18,51 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bodruck"
+    },
+    {
+      "name": "Mavrickleyum",
+      "type": "food",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mavrickleyum"
+    },
+    {
+      "name": "Botrum",
+      "type": "biome",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "botrum"
+    },
+    {
+      "name": "Mavrickleblock",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mavrickleblock"
+    },
+    {
+      "name": "Halui",
+      "type": "function",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "halui"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.perkedel_stuffs:mavrickleyum.name": "Mavrickleyum",
+      "tile.perkedel_stuffs:mavrickleblock.name": "Mavrickleblock"
+    }
   },
   "foldersRoot": {
     "name": "~",
