@@ -1,5 +1,4 @@
 {
-  "id_map": {},
   "mod_elements": [
     {
       "name": "CommundBluck",
@@ -7,8 +6,12 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
-      "registry_name": "commund_bluck"
+      "registry_name": "commund_bluck",
+      "metadata": {
+        "files": [
+          "src/main/perkedel_stuffs_behaviourpack/recipes/commund_bluck.json"
+        ]
+      }
     },
     {
       "name": "Bodruck",
@@ -16,17 +19,12 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
-      "registry_name": "bodruck"
-    },
-    {
-      "name": "Mavrickleyum",
-      "type": "food",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "mavrickleyum"
+      "registry_name": "bodruck",
+      "metadata": {
+        "files": [
+          "src/main/perkedel_stuffs_behaviourpack/recipes/bodruck.json"
+        ]
+      }
     },
     {
       "name": "Botrum",
@@ -34,8 +32,12 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
-      "registry_name": "botrum"
+      "registry_name": "botrum",
+      "metadata": {
+        "files": [
+          "src/main/perkedel_stuffs_behaviourpack/biomes/botrum.json"
+        ]
+      }
     },
     {
       "name": "Mavrickleblock",
@@ -43,8 +45,15 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
-      "registry_name": "mavrickleblock"
+      "registry_name": "mavrickleblock",
+      "metadata": {
+        "files": [
+          "src/main/perkedel_stuffs_behaviourpack/features/perkedel_stuffs_mavrickleblock_ore_feature.json",
+          "src/main/perkedel_stuffs_behaviourpack/loot_tables/blocks/perkedel_stuffs_mavrickleblock.json",
+          "src/main/perkedel_stuffs_behaviourpack/blocks/mavrickleblock.json",
+          "src/main/perkedel_stuffs_behaviourpack/feature_rules/perkedel_stuffs_mavrickleblock_ore_feature_rule.json"
+        ]
+      }
     },
     {
       "name": "Halui",
@@ -52,16 +61,52 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
-      "registry_name": "halui"
+      "registry_name": "halui",
+      "metadata": {
+        "files": [
+          "src/main/perkedel_stuffs_behaviourpack/functions/halui.mcfunction"
+        ]
+      }
+    },
+    {
+      "name": "Mavrickleyum",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mavrickleyum",
+      "metadata": {
+        "files": [
+          "src/main/perkedel_stuffs_behaviourpack/items/mavrickleyum.json",
+          "src/main/perkedel_stuffs_resourcepack/items/mavrickleyum.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "amarac",
+      "files": [
+        "do-amarac"
+      ],
+      "category": "neutral",
+      "subtitle": "Chiptone do Amarac"
+    },
+    {
+      "name": "bouff",
+      "files": [
+        "bouff"
+      ],
+      "category": "block",
+      "subtitle": "Chiptone breaking bouff"
+    }
+  ],
   "language_map": {
     "en_us": {
       "item.perkedel_stuffs:mavrickleyum.name": "Mavrickleyum",
-      "tile.perkedel_stuffs:mavrickleblock.name": "Mavrickleblock"
+      "subtitles.bouff": "Chiptone breaking bouff",
+      "tile.perkedel_stuffs:mavrickleblock.name": "Mavrickleblock",
+      "subtitles.amarac": "Chiptone do Amarac"
     }
   },
   "foldersRoot": {
@@ -71,19 +116,22 @@
   "workspaceSettings": {
     "modid": "perkedel_stuffs",
     "modName": "Perkedel Stuffs",
-    "version": "1.0.0",
-    "author": "joelr, MCreator",
-    "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "version": "2023.08.0",
+    "description": "All Perkedel Stuffs there is to it.",
+    "author": "JOELwindows7",
+    "websiteURL": "https://github.com/Perkedel/Perkedel_MC_bedrock_addons",
+    "license": "GNU General Public License version 3 (GPLv3)",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "perkedel_profile_2048x2048",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "addon-1.16.x",
-    "modElementsPackage": "net.mcreator.perkedelstuffs",
+    "currentGenerator": "addon-1.19.x",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about; visit our website https://perkedel.netlify.app",
+    "modElementsPackage": "com.perkedel.perkedelstuffs_mcpe",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100236710
+  "mcreatorVersion": 202300224119
 }

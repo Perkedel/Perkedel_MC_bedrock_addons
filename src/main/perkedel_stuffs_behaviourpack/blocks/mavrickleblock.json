@@ -1,15 +1,16 @@
 {
-  "format_version": "1.16.0",
+  "format_version": "1.17.3",
   "minecraft:block": {
     "description": {
       "identifier": "perkedel_stuffs:mavrickleblock",
-      "is_experimental": false
+      "is_experimental": false,
+      "register_to_creative_menu ": true
     },
     "components": {
       "minecraft:map_color": "#993333",
       "minecraft:loot": "loot_tables/blocks/perkedel_stuffs_mavrickleblock.json",
-      "minecraft:block_light_emission": 0.666666666667,
-      "minecraft:destroy_time": 0.7000000000000001,
+      "minecraft:block_light_emission": 0.6666666667,
+      "minecraft:destroy_time": 0.7,
       "minecraft:explosion_resistance": 0,
       "minecraft:friction": 0.6,
       "minecraft:flammable": {

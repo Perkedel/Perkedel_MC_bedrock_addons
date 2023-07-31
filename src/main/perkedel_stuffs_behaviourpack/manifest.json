@@ -1,28 +1,28 @@
 {
   "format_version": 2,
   "header": {
-    "description": "",
+    "description": "All Perkedel Stuffs there is to it.",
     "name": "Perkedel Stuffs",
     "uuid": "1ccad525-442d-35d0-adc1-3b54aadf8835",
     "version": [
-      1,
-      0,
+      2023,
+      8,
       0
     ],
     "min_engine_version": [
       1,
-      16,
+      19,
       0
     ]
   },
   "modules": [
     {
-      "description": "",
+      "description": "All Perkedel Stuffs there is to it.",
       "type": "data",
       "uuid": "2e56edd8-18cf-3748-a840-14d83bc01c53",
       "version": [
-        1,
-        0,
+        2023,
+        8,
         0
       ]
     }
@@ -31,16 +31,16 @@
     {
       "uuid": "6656157c-e7b9-3aff-82ae-a2cb117b9d29",
       "version": [
-        1,
-        0,
+        2023,
+        8,
         0
       ]
     }
   ],
   "metadata": {
     "authors": [
-      "joelr, MCreator"
+      "JOELwindows7"
     ],
-    "url": "https://mcreator.net"
+    "url": "https://github.com/Perkedel/Perkedel_MC_bedrock_addons"
   }
 }

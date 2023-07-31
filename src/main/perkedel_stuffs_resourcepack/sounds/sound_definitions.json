@@ -1,1 +1,22 @@
-{}
+{
+  "amarac": {
+    "category": "neutral",
+    "subtitle": "subtitles.amarac",
+    "sounds": [
+      {
+        "name": "sounds/do-amarac",
+        "volume": 1
+      }
+    ]
+  },
+  "bouff": {
+    "category": "block",
+    "subtitle": "subtitles.bouff",
+    "sounds": [
+      {
+        "name": "sounds/bouff",
+        "volume": 1
+      }
+    ]
+  }
+}
